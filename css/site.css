@@ -133,3 +133,73 @@ app {
         display: block;
     }
 }
+
+
+/* ******************************************************************************  */
+
+/* ******************************************************************************  */
+body a, body a:not([href]), body a:not([href]):not([tabindex]), body a:not([href]):not([tabindex]):hover {
+    color: #007bff;
+    cursor: pointer;
+}
+
+ 
+div.break {
+    clear: both;
+}
+
+div.tile {
+    width: 290px;
+    height: 150px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background: lightblue;
+    border: solid 2px darkblue;
+}
+
+div.unit {
+    min-width: 200px;
+    max-width: 310px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+div.Obese {
+    background: red;
+}
+
+div.Overweight {
+    background: lightcoral;
+}
+
+div.Underweight {
+    background: lightcoral;
+}
+
+input.error {
+    border: 2px solid red;
+}
+
+.label {
+    max-width: 60%;
+    float: left;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.labelTarget {
+    float: left;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
