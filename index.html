@@ -42,24 +42,13 @@
     </script>
     <!-- End Single Page Apps for GitHub Pages -->    
 <style class="cp-pen-styles">@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700,300);
-*, html {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: #e74c3c;
-  text-align: center;
-  font-family: 'Comfortaa', cursive;
-}
-
 svg {
   width: 100px;
   height: 100px;
   margin: 20px;
   display: inline-block;
+     font-family: 'Comfortaa', cursive;
 }
-
 h1 {
   text-align: center;
   color: #fff;
@@ -72,36 +61,13 @@ h1 {
 }
 h1 b {
   font-weight: 700;
-}
-
-.made-with-love {
-  margin-top: 20px;
-  padding: 10px;
-  font-size: 10px;
-  font-family: arial;
-  color: #fff;
-}
-.made-with-love i {
-  font-style: normal;
-  color: #F50057;
-  font-size: 14px;
-  position: relative;
-  top: 2px;
-}
-.made-with-love a {
-  color: #fff;
-  text-decoration: none;
-}
-.made-with-love a:hover {
-  text-decoration: underline;
-}
+} 
 </style>
     
 </head>
 <body>
-
- <!-- Blazor app element and script -->
-    <app>
+<!-- Blazor app element and script -->
+<app><div class="container">
 <h1>Loading <b>...</b></h1>
   
 <svg version="1.1" id="L2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
@@ -162,7 +128,7 @@ h1 b {
 <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="1s" from="0 50 50" to="360 50 50" repeatCount="indefinite" />
 </path>
 </svg>   
-    </app>
+</div></app>
  <script src="_framework/blazor.webassembly.js"></script>
 </body>
 </html>
