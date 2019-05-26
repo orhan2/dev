@@ -51,8 +51,18 @@ font-family: 'Comfortaa', cursive;
 }</style>    
 </head>
 <body>
+<!-- Github Fork Me -->
+<a id="gitlink" target="_blank" href="https://github.com/orhan2/dev">
+<img style="position: absolute; top: 0; right: 0; border: 0;"
+     src="http://aral.github.io/fork-me-on-github-retina-ribbons/right-dusk-blue@2x.png"
+     alt="Fork me on GitHub">
+</a>
 <!-- Blazor app element and script -->
-<app><div class="container" style="text-align: center;font-family: 'Comfortaa', cursive;">
+<app class="grid">
+   <div class="grid-content">
+     <div class="grid-center">
+
+<div class="container" style="text-align: center;font-family: 'Comfortaa', cursive;">
 <h1 style="text-align: center;color: #a11;margin: 0 0 100px;font-size: 34px;font-weight: 100;text-transform: uppercase;background-color: #e43725;
  padding: 20px 0;">Loading <b>...</b></h1>
   
@@ -114,7 +124,11 @@ font-family: 'Comfortaa', cursive;
 <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="1s" from="0 50 50" to="360 50 50" repeatCount="indefinite" />
 </path>
 </svg> 
-</div></app>
- <script src="_framework/blazor.webassembly.js"></script>
+</div>
+         
+   </div>
+ </div>
+</app>
+<script src="_framework/blazor.webassembly.js"></script>
 </body>
 </html>
